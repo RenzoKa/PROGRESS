@@ -1,3 +1,10 @@
 * {
-    border-style: dashed black;
+    border: dashed;
+    border-color: lightgrey;
 }
+
+header {
+    background-color: black;
+}
+
+/* continuar o código para estilizar */
