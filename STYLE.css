@@ -1,10 +1,42 @@
-* {
-    border: dashed;
-    border-color: lightgrey;
-}
-
+/* i código header */
 header {
-    background-color: black;
+    background-color: hsla(0, 0%, 0%, 0.95);
+    color: white;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
 }
 
+nav ul {
+    list-style-type: none;
+    display: block;
+    margin-left: 150px;
+}
+
+nav li {
+    float: left;
+    margin-left: 20px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+#headtitle {
+    float: left;
+    margin-left: 20px;
+}
+
+/* f código header */
+
+body {
+    margin-top: 75px;
+}
+
+img {
+    height: 125px;
+}
 /* continuar o código para estilizar */
