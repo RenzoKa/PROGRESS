@@ -1,6 +1,6 @@
 /* i código header */
 header {
-    background-color: hsla(0, 0%, 0%, 0.95);
+    background-image: linear-gradient(hsla(0, 0%, 0%, 1), hsla(0, 0%, 0%, 0.90));
     color: white;
     overflow: hidden;
     position: fixed;
@@ -8,6 +8,9 @@ header {
     top: 0;
     left: 0;
     font-family: "Trebuchet MS";
+    border-bottom-style: solid;
+    border-bottom-color: rgba(120, 120, 120, 0.25);
+    z-index: 1;
 }
 
 nav ul {
@@ -40,7 +43,33 @@ body {
     font-family: Tahoma;
 }
 
+#title {
+    font-size: 50px;
+}
+
 img {
     height: 125px;
 }
+
+/* f código body */
+footer {
+    background-color: rgb(221, 202, 174);
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: auto 0;
+}
+
+footer h2 {
+    float: left;
+    padding: 10px;
+}
+
+footer a {
+    float: left;
+    padding: 10px;
+    padding-top: 35px;
+}
+/* f código footer */
 /* continuar o código para estilizar */
